@@ -1,0 +1,65 @@
+div.top {
+    padding-top: 20px;
+}
+.top {
+    position: relative;
+    background-color: #ffffff;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 2;
+}
+.mu-container {
+    padding: 0.01em 16px;
+}
+div {
+    display: block;
+}
+.mu-logo:link {
+    text-decoration: none;
+}
+.mu-logo {
+    font-family: fontawesome;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    position: absolute;
+    top: 17px;
+}
+.mu-right {
+    float: right!important;
+}
+.mu-wide {
+    letter-spacing: 4px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.navbar-fixed-top {
+    top: 20px;
+}
+@media (min-width:1675px) {
+    #main {width:79%}
+    #right {width:21%}
+}
+@media (max-width:992px) {
+    .top {height:100px}
+    .top img {display:block;margin:auto;}
+    .top .mu-logo {position:relative;top:0;width:100%;text-align:center;margin:auto}
+    .toptext {width:100%;text-align:center}
+    #sidenav {width:260px;
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+}
